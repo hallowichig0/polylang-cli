@@ -1,4 +1,4 @@
-diggy/polylang-cli
+hallowichig0/polylang-cli
 ==================
 
 CLI for the Polylang plugin
@@ -9,8 +9,16 @@ Quick links: [Installation](#installation) | [Using](#using) | [Contributing](#c
 
 ## Installation
 
-Installing this package requires WP-CLI v1.5.0 or greater. Update to the latest stable release with `wp cli update`.
-Once you've done so, you can install this package with `wp package install git@github.com:hallowichig0/polylang-cli.git`.
+1. Edit your composer.json in your project directory and paste this code in the group of repositories.
+```{
+      "type": "vcs",
+      "url": "git@github.com:hallowichig0/polylang-cli.git"
+```
+
+2. Install using the composer:
+```composer require 'hallowichig0/polylang-cli'```
+
+3. You can install this package with `wp package install git@github.com:hallowichig0/polylang-cli.git`.
 
 ## Using
 
