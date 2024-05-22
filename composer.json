@@ -1,8 +1,8 @@
 {
-    "name": "epfl-si/polylang-cli",
+    "name": "hallowichig0/polylang-cli",
     "description": "CLI for the Polylang plugin",
     "type": "wp-cli-package",
-    "homepage": "https://github.com/epfl-si/polylang-cli",
+    "homepage": "https://github.com/hallowichig0/polylang-cli",
     "license": "MIT",
     "authors": [
         {
